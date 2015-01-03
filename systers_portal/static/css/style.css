@@ -52,6 +52,7 @@ body > .container {
   text-align: center;
   border: 0;
   box-shadow: none;
+
 }
 
 .featurette-divider {
@@ -64,6 +65,16 @@ body > .container {
   letter-spacing: -1px;
   margin-top: 0;
   font-size: 3.5em;
+}
+
+@media screen and (max-width: 991px) {
+  .featurette img.img-responsive {
+    margin: 0 auto;
+  }
+
+  .featurette {
+    text-align: center;
+  }
 }
 
 /* Sign in, Sign up
